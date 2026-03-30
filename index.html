@@ -1,0 +1,20 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Simple To-Do App</title>
+    <!-- link - press enter -->
+    <link rel="stylesheet" href="./styles.css" />
+  </head>
+  <body>
+    <!-- .box>h2{To-Do App}+input#taskInput[type="text"][placeholder="Enter tesk"]+button{Add}+ul#list -->
+    <div class="box">
+      <h2>To-Do App</h2>
+      <input type="text" id="taskInput" placeholder="Enter task" />
+      <button onclick="addTask()">Add</button>
+      <ul id="list"></ul>
+    </div>
+    <script src="./script.js"></script>
+  </body>
+</html>
